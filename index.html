@@ -22,7 +22,9 @@
     .bg-color {
       background-color: #E76F51;
     }
-
+    .text-client{
+      color: #E76F51;
+    }
     .text-color {
       color: rgba(0, 0, 0, 0.8);
       ;
@@ -32,7 +34,7 @@
 
 <body class="font-popping">
   <!-- header section -->
-  <header class="md:container mx-auto">
+  <header class="md:container md:mx-auto">
     <!-- navbar -->
     <div class="navbar bg-base-100">
       <div class="flex-1">
@@ -126,17 +128,17 @@
     </div>
   </header>
   <!-- MAIN Section -->
-  <main class="md:container mx-auto ">
+  <main class="md:container md:mx-auto ">
     <!-- Fetured Bikes In This Year -->
     <section class="my-10 ">
       <div class="text-center">
         <h1 class="text-4xl font-bold">Fetured Bikes In This Year</h1>
         <p class="text-[#E76F51] mb-10 font-bold">Best bi<span class="border-b-2 border-[#E76F51]">ke colle</span>ction</p>
       </div>
-      <div class="flex gap-12 flex-col md:flex-row justify-between">
-        <img  class="grayscale w-[70%] mx-auto md:w-full" src="./images/others/feature-bike.png" alt="">
-        <img class="w-[70%] mx-auto md:w-full" src="./images/others/feature-bike.png" alt="">
-        <img class="grayscale w-[70%] mx-auto md:w-full" src="./images/others/feature-bike.png " alt="">
+      <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3">
+        <img  class="grayscale w-[70%] mx-auto" src="./images/others/feature-bike.png" alt="">
+        <img class="w-[70%] mx-auto" src="./images/others/feature-bike.png" alt="">
+        <img class="grayscale w-[70%] mx-auto" src="./images/others/feature-bike.png " alt="">
       </div>
     </section>
     <!-- latest News Section -->
@@ -188,7 +190,67 @@
           </div>
         </div>
      </section>
+    <!-- Happy Clients says -->
+    <section class="my-12">
+      <h1 class="text-center mb-10 text-5xl font-bold">Happy <span class="text-client">Clients says</span></h1>
+      <!-- client card -->
+       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mx-2">
+        <!-- client card 1-->
+        <div class="card border-2 py-10 bg-base-100  shadow-xl">
+          <figure class="pb-8">
+            <img class="w-[150px] "
+              src="./images/others/user-1.png" />
+          </figure>
+          <div class="text-center space-y-4 px-10 mt-5">
+            <p class="text-color">Slate helps you see how 
+              many more days you need 
+              to work to reach your financial 
+              goal for the month and year.</p>
+              <div>
+
+              </div>
+            <p class="font-semibold text-[#0a9ee3]">Regina Miles</p>
+            <p class="font-bold">Banker</p>
+          </div>
+        </div>
+        <div class="card border-2 py-10 bg-base-100  shadow-xl">
+          <figure class="pb-8">
+            <img class="w-[150px] "
+              src="./images/others/user-2.png" />
+          </figure>
+          <div class="text-center space-y-4  mt-5">
+            <p class="text-color">Slate helps you see how 
+              many more days you need 
+              to work to reach your financial 
+              goal for the month and year.</p>
+              <div>
+
+              </div>
+            <p class="font-semibold text-[#0a9ee3]">Regina Miles</p>
+            <p class="font-bold">Banker</p>
+          </div>
+        </div>
+        <div class="card border-2 py-10 bg-base-100  shadow-xl">
+          <figure class="pb-8">
+            <img class="w-[150px] "
+              src="./images/others/user-3.png" />
+          </figure>
+          <div class="text-center space-y-4 px-10 mt-5">
+            <p class="text-color">Slate helps you see how 
+              many more days you need 
+              to work to reach your financial 
+              goal for the month and year.</p>
+              <div>
+
+              </div>
+            <p class="font-semibold text-[#0a9ee3]">Regina Miles</p>
+            <p class="font-bold">Banker</p>
+          </div>
+        </div>
+       </div>
+    </section>
   </main>
+   
   <!-- footer section -->
   <footer>
   </footer>
